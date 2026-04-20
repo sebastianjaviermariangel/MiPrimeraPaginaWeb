@@ -27,9 +27,6 @@ Muestra mi formación académica, habilidades técnicas, proyectos realizados y 
 2. Abrir "index.html" en el navegador
 3. Listo.
 
-## Ver Proyecto online
-https://github.com/sebastianjaviermariangel/MiPrimeraPaginaWeb
-
 ## Compatibilidad
 
 - Chrome 
