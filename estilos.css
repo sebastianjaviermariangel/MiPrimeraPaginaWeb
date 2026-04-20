@@ -20,8 +20,8 @@ html {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
     color: var(--color-text);
     background-color: #ffffff;
 }
@@ -102,7 +102,7 @@ main {
 }
 
 section {
-    padding: 80px 5%;
+    padding: 80px 5px;
 }
 
 .section-header {
@@ -284,4 +284,100 @@ section {
 .competencia-box li {
     margin-bottom: 12px;
     color: #555;
+}
+
+/**Proyectos**/
+.proyectos {
+    background-color: var(--color-light);
+}
+
+.galeria-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+}
+
+.proyecto-card {
+    background-color: white;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.proyecto-card figure {
+    margin: 0;
+    overflow: hidden;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyecto-card img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.proyecto-card:hover img {
+    transform: scale(1.05);
+}
+
+.proyecto-card figcaption {
+    display: none;
+}
+
+.proyecto-card h3 {
+    font-size: 18px;
+    color: var(--color-primary);
+    padding: 20px 20px 10px;
+}
+
+.proyecto-card p {
+    color: #666;
+    font-size: 14px;
+    padding: 0 20px 15px;
+    line-height: 1.6;
+}
+
+.btn-repo {
+    display: inline-block;
+    margin: 0 20px 20px;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-repo:hover {
+    color: #f91616;
+}
+
+.info-contacto {
+    background-color: var(--color-light);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.info-contacto h3 {
+    font-size: 18px;
+    color: var(--color-primary);
+    margin-bottom: 25px;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-border);
 }

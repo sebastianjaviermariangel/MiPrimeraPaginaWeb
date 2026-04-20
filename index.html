@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Sebastián Mariángel</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -140,12 +143,140 @@
                 </figure>
                 <h3>Landing Page</h3>
                 <p>Página de aterrizaje para producto digital con diseño moderno y llamado a la acción efectivo.</p>
-                <a href="#" class="btn-repo">Ver repositorio →</a>
+                <a href="#" class="btn-repo">Ver repositorio</a>
+            </article>
+
+
+            <article class="proyecto-card">
+                <figure>
+    <img src="./img/File image.png" alt="File image" width="60" height="60">
+                    <figcaption>Proyecto web - Blog personal</figcaption>
+                </figure>
+                <h3>Blog Personal</h3>
+                <p>Blog responsivo con sistema de artículos y categorías. Experiencia de usuario fluida.</p>
+                <a href="#" class="btn-repo">Ver repositorio</a>
             </article>
 
             <article class="proyecto-card">
                 <figure>
+                    
+                    <img src="./img/Tools image.png" alt="Tools image" width="60" height="60">
+                    <figcaption>Proyecto web - Dashboard</figcaption>
+                </figure>
+                <h3>Dashboard Admin</h3>
+                <p>Panel de administración con gráficos y tablas de datos. Interfaz intuitiva y funcional.</p>
+                <a href="#" class="btn-repo">Ver repositorio</a>
+            </article>
+
+
+            <article class="proyecto-card">
+                <figure>
+                    <img src="./img/Kitchen image.png" alt="Kitchen image" width="60" height="60">
+                    <figcaption>Proyecto web - Página de Recetas</figcaption>
+                </figure>
+                <h3>Página de Recetas Chilenas</h3>
+                <p>Sitio de recetas con filtros por ingredientes, dificultad y tiempo de preparación.</p>
+                <a href="#" class="btn-repo">Ver repositorio</a>
+            </article>
+
+            <article class="proyecto-card">
+                <figure>
+                    <img src="./img/Format List image.png" alt="Format List image" width="60" height="60">
+                    <figcaption>Proyecto web - To-Do List</figcaption>
+                </figure>
+                <h3>To-Do List</h3>
+                <p>Hace lista de tareas, crear, editar y eliminar, incluye filtros y marcado de completadas.</p>
+                <a href="#" class="btn-repo">Ver repositorio</a>
+            </article>
+
+            <article class="proyecto-card">
+                <figure>
+                    
+                    <img src="./img/Portfolio image.png" alt="Portfolio image" width="60" height="60">
+                    <figcaption>Proyecto web - Portafolio</figcaption>
+                </figure>
+                <h3>Portafolio Version 1</h3>
+                <p>Mi primera versión de portafolio profesional.</p>
+                <a href="#" class="btn-repo">Ver repositorio</a>
+            </article>
+        </div>
+    </section>
+
+
+    <section id="contacto" class="contacto">
+        <div class="section-header">
+            <h2>Contacto</h2>
+            <p class="section-subtitle">Envíame un mensaje</p>
+        </div>
+
+        <div class="contacto-layout">
+            <form class="formulario-contacto" action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona un asunto</option>
+                        <option value="consulta">Consulta general</option>
+                        <option value="proyecto">Propuesta de proyecto</option>
+                        <option value="colaboracion">Colaboración</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar mensaje</button>
+            </form>
+
+            <aside class="info-contacto">
+                <h3>Información de contacto</h3>
+                <div class="contacto-item">
+                    <span class="icon">📧</span>
+                    <p>sebastian.mariangel02@gmail.com</p>
+                </div>
+                <div class="contacto-item">
+                    <span class="icon">📍</span>
+                    <p>Talcahuano, Chile</p>
+                </div>
+                <div class="contacto-item">
+                    <span class="icon">📱</span>
+                    <p>+56 9 6764 5675</p>
+                </div>
+                <div class="contacto-item">
+                    <span class="icon">🌐</span>
+                    <p><a href="https://github.com" target="_blank">https://github.com/sebastianjaviermariangel</a></p>
+                </div>
+            </aside>
+        </div>
+    </section>
 </main>
+</main>
+<footer>
+    <div class="footer-content">
+        <div class="footer-brand">
+            <span class="logo-icon">SM</span>
+            <span>Sebastián Mariángel</span>
+        </div>
+        <div class="redes-sociales">
+            <a href="#" title="GitHub">GitHub</a>
+            <a href="#" title="Twitter">Twitter</a>
+            <a href="#" title="Instagram">Instagam</a>
+        </div>
+    </div>
+    <p class="copyright">© 2026 Sebastián JavierMariángel. Todos los derechos reservados.</p>
+</footer>
 </body>
 
 </html>
