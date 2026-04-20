@@ -9,280 +9,57 @@
 
 <body>
 
-<!-- HEADER Y NAVEGACIÓN -->
 <header>
     <nav class="navbar">
+
         <div class="logo">
-            <span class="logo-icon">SM</span>
-            <span>Sebastián Mariángel</span>
+        <div>Sebastián Mariángel</div>
         </div>
         
         <ul class="menu">
-            <li><a href="#inicio">Sobre mí</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#">Sobre mí</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Contacto</a></li>
         </ul>
+
     </nav>
 </header>
 
 <main>
-    <!-- SECCIÓN INICIO/HERO -->
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Hola, soy <span class="highlight">Sebastián Mariángel</span></h1>
-            <p class="subtitle">Estudiante de Desarrollo Web</p>
-            <p class="description">Apasionado por crear experiencias web modernas y accesibles. Actualmente cursando la carrera de Programación en el Instituto Técnico.</p>
-        </div>
-        <div class="hero-image">
-            <img src="https://via.placeholder.com/300" alt="Foto de perfil de Sebastián Mariángel" width="250" height="250">
-        </div>
+    <section id="inicio">
+            <img src="img/user icon.png" alt="Logo User" width="103px" height="103px">   
+        <h1>Hola, soy Sebastián Mariangel</h1>
     </section>
 
-    <!-- SECCIÓN SOBRE MÍ -->
     <section id="sobre-mi" class="sobre-mi">
         <div class="section-header">
-            <h2>Sobre Mí</h2>
+            <h2>Acerca de mi</h2>
             <p class="section-subtitle">Conóceme un poco más</p>
         </div>
         
         <article class="contenido-sobre">
             <div class="texto-sobre">
-                <p>Mi nombre es Sebastián Mariángel y soy estudiante de desarrollo web.</p>
+                <p>Mi nombre es Sebastián Mariángel y soy estudiante de INACAP.</p>
                 <p>Desde que descubrí la programación, me apasiona crear sitios web que sean tanto funcionales como estéticamente agradables.</p>
                 <p>Actualmente me encuentro <strong>aprendiendo HTML5, CSS3 y JavaScript</strong>, con el objetivo de convertirme en un desarrollador front-end profesional. Me gusta trabajar en equipo y aprender nuevas tecnologías.</p>
                 <blockquote>
                     <p><em>"El único modo de hacer un gran trabajo es amar lo que haces."</em> — Steve Jobs</p>
                 </blockquote>
             </div>
-            
             <aside class="datos-personales">
                 <h3>Datos Personales</h3>
                 <ul>
-                    <li><strong>Edad:</strong> 22 años</li>
+                    <li><strong>Edad:</strong> 24 años</li>
                     <li><strong>Ciudad:</strong> Talcahuano, Chile</li>
-                    <li><strong>Email:</strong> sebastian@email.com</li>
-                    <li><strong>Carrera:</strong> Programación Web</li>
-                    <li><strong>Intereses:</strong> Diseño UI/UX, Gaming</li>
+                    <li><strong>Email:</strong> sebastian.mariangel02@gmail.com</li>
+                    <li><strong>Carrera:</strong> Analista Programador</li>
+                    <li><strong>Intereses:</strong> Gaming, Deporte</li>
                 </ul>
             </aside>
         </article>
     </section>
 
-    <!-- SECCIÓN HABILIDADES -->
-    <section id="habilidades" class="habilidades">
-        <div class="section-header">
-            <h2>Habilidades</h2>
-            <p class="section-subtitle">Tecnologías y competencias</p>
-        </div>
-
-        <table class="tabla-habilidades">
-            <thead>
-                <tr>
-                    <th>Tecnología</th>
-                    <th>Nivel</th>
-                    <th>Dominio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>HTML5</td>
-                    <td>Avanzado</td>
-                    <td><div class="progress-bar" style="width: 90%;"></div></td>
-                </tr>
-                <tr>
-                    <td>CSS3</td>
-                    <td>Intermedio-Alto</td>
-                    <td><div class="progress-bar" style="width: 80%;"></div></td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Intermedio</td>
-                    <td><div class="progress-bar" style="width: 70%;"></div></td>
-                </tr>
-                <tr>
-                    <td>Git / GitHub</td>
-                    <td>Intermedio</td>
-                    <td><div class="progress-bar" style="width: 75%;"></div></td>
-                </tr>
-                <tr>
-                    <td>React</td>
-                    <td>Básico</td>
-                    <td><div class="progress-bar" style="width: 50%;"></div></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <div class="competencias-layout">
-            <article class="competencia-box">
-                <h3>Competencias Técnicas</h3>
-                <ul>
-                    <li>Maquetación responsiva</li>
-                    <li>Control de versiones con Git</li>
-                    <li>Diseño con Flexbox y Grid</li>
-                    <li>Accesibilidad web (WCAG)</li>
-                </ul>
-            </article>
-
-            <article class="competencia-box">
-                <h3>Ruta de Aprendizaje</h3>
-                <ol>
-                    <li>HTML5 y CSS3 (actual)</li>
-                    <li>JavaScript ES6+</li>
-                    <li>React.js</li>
-                    <li>Node.js y Express</li>
-                </ol>
-            </article>
-        </div>
-    </section>
-
-    <!-- SECCIÓN PROYECTOS -->
-    <section id="proyectos" class="proyectos">
-        <div class="section-header">
-            <h2>Proyectos</h2>
-            <p class="section-subtitle">Algunos de mis trabajos</p>
-        </div>
-
-        <div class="galeria-proyectos">
-            <article class="proyecto-card">
-                <figure>
-                    <img src="https://via.placeholder.com/300x200/4F46E5/FFFFFF?text=Landing+Page" alt="Proyecto Landing Page" width="300" height="200">
-                    <figcaption>Proyecto web - Landing page</figcaption>
-                </figure>
-                <h3>Landing Page</h3>
-                <p>Página de aterrizaje para producto digital con diseño moderno y llamado a la acción efectivo.</p>
-                <a href="#" class="btn-repo">Ver repositorio →</a>
-            </article>
-
-            <article class="proyecto-card">
-                <figure>
-                    <img src="https://via.placeholder.com/300x200/EC4899/FFFFFF?text=Blog+Personal" alt="Proyecto Blog Personal" width="300" height="200">
-                    <figcaption>Proyecto web - Blog personal</figcaption>
-                </figure>
-                <h3>Blog Personal</h3>
-                <p>Blog responsivo con sistema de artículos y categorías. Experiencia de usuario fluida.</p>
-                <a href="#" class="btn-repo">Ver repositorio →</a>
-            </article>
-
-            <article class="proyecto-card">
-                <figure>
-                    <img src="https://via.placeholder.com/300x200/06B6D4/FFFFFF?text=Dashboard" alt="Proyecto Dashboard Admin" width="300" height="200">
-                    <figcaption>Proyecto web - Dashboard</figcaption>
-                </figure>
-                <h3>Dashboard Admin</h3>
-                <p>Panel de administración con gráficos y tablas de datos. Interfaz intuitiva y funcional.</p>
-                <a href="#" class="btn-repo">Ver repositorio →</a>
-            </article>
-
-            <article class="proyecto-card">
-                <figure>
-                    <img src="https://via.placeholder.com/300x200/10B981/FFFFFF?text=App+Clima" alt="Proyecto App Clima" width="300" height="200">
-                    <figcaption>Proyecto web - App móvil</figcaption>
-                </figure>
-                <h3>App Clima</h3>
-                <p>Aplicación del clima con API externa y diseño responsivo. Consulta el clima en tiempo real.</p>
-                <a href="#" class="btn-repo">Ver repositorio →</a>
-            </article>
-
-            <article class="proyecto-card">
-                <figure>
-                    <img src="https://via.placeholder.com/300x200/F59E0B/FFFFFF?text=E-commerce" alt="Proyecto E-commerce" width="300" height="200">
-                    <figcaption>Proyecto web - E-commerce</figcaption>
-                </figure>
-                <h3>Tienda Online</h3>
-                <p>E-commerce básico con catálogo de productos y carrito. Sistema de compra funcional.</p>
-                <a href="#" class="btn-repo">Ver repositorio →</a>
-            </article>
-
-            <article class="proyecto-card">
-                <figure>
-                    <img src="https://via.placeholder.com/300x200/8B5CF6/FFFFFF?text=Portafolio" alt="Proyecto Portafolio" width="300" height="200">
-                    <figcaption>Proyecto web - Portafolio</figcaption>
-                </figure>
-                <h3>Portafolio v1</h3>
-                <p>Primera versión de mi portafolio profesional. Muestra mis habilidades y proyectos.</p>
-                <a href="#" class="btn-repo">Ver repositorio →</a>
-            </article>
-        </div>
-    </section>
-
-    <!-- SECCIÓN CONTACTO -->
-    <section id="contacto" class="contacto">
-        <div class="section-header">
-            <h2>Contacto</h2>
-            <p class="section-subtitle">Envíame un mensaje</p>
-        </div>
-
-        <div class="contacto-layout">
-            <form class="formulario-contacto" action="#" method="POST">
-                <div class="form-group">
-                    <label for="nombre">Nombre completo</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Correo electrónico</label>
-                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="asunto">Asunto</label>
-                    <select id="asunto" name="asunto" required>
-                        <option value="">Selecciona un asunto</option>
-                        <option value="consulta">Consulta general</option>
-                        <option value="proyecto">Propuesta de proyecto</option>
-                        <option value="colaboracion">Colaboración</option>
-                        <option value="otro">Otro</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
-                </div>
-
-                <button type="submit" class="btn-enviar">Enviar mensaje</button>
-            </form>
-
-            <aside class="info-contacto">
-                <h3>Información de contacto</h3>
-                <div class="contacto-item">
-                    <span class="icon">📧</span>
-                    <p>sebastian@email.com</p>
-                </div>
-                <div class="contacto-item">
-                    <span class="icon">📍</span>
-                    <p>Talcahuano, Chile</p>
-                </div>
-                <div class="contacto-item">
-                    <span class="icon">📱</span>
-                    <p>+56 9 1234 5678</p>
-                </div>
-                <div class="contacto-item">
-                    <span class="icon">🐙</span>
-                    <p><a href="https://github.com" target="_blank">github.com/sebastianmariangel</a></p>
-                </div>
-            </aside>
-        </div>
-    </section>
 </main>
-
-<!-- FOOTER -->
-<footer>
-    <div class="footer-content">
-        <div class="footer-brand">
-            <span class="logo-icon">SM</span>
-            <span>Sebastián Mariángel</span>
-        </div>
-        <div class="redes-sociales">
-            <a href="#" title="GitHub">GH</a>
-            <a href="#" title="LinkedIn">LI</a>
-            <a href="#" title="Twitter">TW</a>
-            <a href="#" title="Instagram">IG</a>
-        </div>
-    </div>
-    <p class="copyright">© 2026 Sebastián Mariángel. Todos los derechos reservados.</p>
-</footer>
-
 </body>
 </html>
