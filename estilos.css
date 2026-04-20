@@ -9,10 +9,9 @@
     --color-primary: #1e3a5f;
     --color-secondary: #3b5f91;
     --color-accent: #bd995b;
-    --color-text: #103e6f;
+    --color-text: #0b5099;
     --color-light: #f8f9fa;
-    --color-white: #ffffff;
-    --color-border: #e0e0e0;
+    --color-border: #b81f1f;
     --transition: all 0.3s ease;
 }
 
@@ -22,10 +21,11 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+    line-height: 1.7;
     color: var(--color-text);
     background-color: #ffffff;
 }
+/***Header y navegación*/
 
 header {
     background-color: var(--color-secondary);
@@ -62,7 +62,7 @@ header {
     height: 45px;
     background-color: var(--color-accent);
     border-radius: 8px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 16px;
 }
@@ -84,7 +84,7 @@ header {
 }
 
 .menu a {
-    color: rgb(239, 234, 234);
+    color: rgb(241, 238, 238);
     text-decoration: none;
     font-weight: 500;
     padding: 8px 12px;
@@ -261,4 +261,27 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+}
+
+.competencia-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.competencia-box h3 {
+    font-size: 18px;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.competencia-box ul,
+.competencia-box ol {
+    padding-left: 30px;
+}
+
+.competencia-box li {
+    margin-bottom: 12px;
+    color: #555;
 }
